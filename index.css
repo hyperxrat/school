@@ -1,0 +1,617 @@
+*{
+    margin: auto;
+    max-width: 1440px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    /* #f4f8ff */
+    background-color: white;
+    background-image: url('lfsbg1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: transparent;
+    margin: auto;
+}
+
+ul{
+    margin: auto;
+}
+
+li{
+    display: inline;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: lovelo;
+}
+
+li:hover{
+    background-color: rgba(180, 180, 180, 0.4);
+}
+
+/* ----------------- CONTAINER ------------------ */
+
+.container{
+    max-width: 1440px;
+    height: 600px;
+}
+
+.container button{
+    font-size: 20px;
+    padding: 10px 22px;
+    margin-top: 450px;
+    margin-left: 130px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ee302a;
+    box-shadow: 0px 5px 15px rgb(167, 167, 167);
+}
+#button2{
+    margin-left: 10px;
+    background-color: #004F54;
+}
+
+/* -- --------------LFS ABOUT CONTAINER------------- */
+
+.about_container{
+    max-width: 1440px;
+    background-image: url('aboutbg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.button_about{
+    font-size: 18px;
+    padding: 8px 15px;
+    font-family: lovelo;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: rgba(219, 219, 219, 0.4);
+    box-shadow: 0px 5px 10px rgba(209, 209, 209);
+}
+
+.welcome{
+    color: rgb(78, 78, 78);
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 45px;    
+}
+.lfs{
+    color: #eb302a;
+    font-size: 45px;
+    margin-left: 100px;    
+}
+.about_lfs{
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 100px;
+    padding: 0px 15px;
+    border-left: 3px solid #D64640;
+}
+.features{
+    color: rgb(78, 78, 78);
+    font-size: 17px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.button_quote{
+    font-size: 18px;
+    padding: 8px 15px;
+    font-family: lovelo;
+    border: none;
+    border-radius: 5px;
+    color: #ee302a;
+    margin-left: 100px;
+    background-color: rgba(219, 219, 219, 0.4);
+    box-shadow: 0px 5px 10px rgba(209, 209, 209);
+}
+.about_lfs2{
+    font-size: 17px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    word-spacing: 5px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.button_readMore{
+    font-size: 18px;
+    padding: 12px 20px;
+    font-family: lovelo;
+    border: none;
+    border-radius: 25px;
+    color: #f5f5f5;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    border: 1px solid #ee302a;
+    background-color: #ee302a;
+    box-shadow: 0px 5px 10px rgba(209, 209, 209);
+    transition: .2s linear ;
+}
+.button_readMore:hover{
+    background-color: white;
+    color: #ee302a;
+}
+
+/* --------------SCHOOL HEAD MESSAGE--------- */
+
+.message_head{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 30px;
+}
+.message_head span{
+    color: #ee302a;
+    font-family: Poppins;
+}
+
+.detail{
+    width: 80%;
+    display: block;
+    margin: 1% auto 3% auto;
+    border-radius: 20px;
+    box-shadow: 2px 10px 20px rgb(202, 202, 202);
+    border: 1px solid rgb(201, 201, 201);
+}
+.about{
+    height: 260px;
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+   background-color: rgba(230, 230, 230,0.2);
+}
+.about_abhinav{
+    text-align: right;
+}
+/*------------------- IMGES -----------------------*/
+#img_odd{
+    position: relative;
+    float: right;
+    width: 320px;
+    height: 260px;
+    z-index: 1;
+    border-radius: 20px;
+}
+#img_even{
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 260px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.card_head{
+    text-align: center;
+    font-family: lovelo;
+    font-size: 27px;
+    padding: 0px 0px 20px 0px;
+}
+h1 span{
+    color: red;
+    font-family: lovelo;
+}
+.message_about{
+    font-size: 20px;
+    color: grey;
+    line-height: 28px;
+    text-align: justify;
+    padding: 0px 330px 10px 20px;
+}
+.message_about2{
+    font-size: 20px;
+    color: grey;
+    line-height: 28px;
+    text-align: justify;
+    padding: 0px 20px 10px 330px;
+}
+/* --------------CARD CONTAINER-------------- */
+
+.school_features_head{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+}
+.school_features_head span{
+    color: #ee302a;
+    font-family: Poppins;
+}
+
+.card_container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('cardbg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card_container2{
+    width: 100%;
+    height: 420px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('cardbg1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card{
+    width: 23%;
+    height: 380px;
+    margin: 20px 30px;
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgb(150, 150, 150);
+    transition: all 0.2s;
+}
+.card:hover{
+    margin-top: 0px;
+    box-shadow: 0px 40px 40px rgb(206, 206, 206);
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.feature_name{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.about_feature{
+    text-align: justify;
+    padding: 15px 25px;
+    margin-top: 10px;
+    color: rgb(78, 78, 78);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_card{
+    margin: auto;
+    border: none;
+    display: block;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px; 
+    padding: 13px 20px;
+    background-color: #2E2E2E;
+}
+
+/* --------------- speical container -------------- */
+
+.special_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    background: linear-gradient(90deg, rgba(238,48,42,1) 0%, rgba(37,40,42,1) 100%);
+}
+.box{
+    width: 50%;
+    height: 550px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+#box1{
+    border-right: 1px solid white;
+}
+
+#box1 span{
+    color: yellow;
+}
+#box2 span{
+    color: #ee302a;
+}
+.box_head{
+    text-align: center;
+    padding:20px 20px 10px 20px;
+    color: white;
+    font-size: 37px;
+    font-family: lovelo;
+    font-weight: 900;
+}
+#box1 h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1 h3{
+    padding: 40px 120px;
+    font-weight: 100;
+    text-align: justify;
+    color: white;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1 li{
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+}
+#box1 li:hover{
+    background-color: transparent;
+}
+#box1 i{
+    font-size: 20px;
+    filter: invert();
+    margin-right: 10px;
+}
+/* box 2 */
+#box2 h2{
+    font-size: 20px;
+    color: #ee302a;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+#box2 i{
+    font-size: 20px;
+    filter: invert();
+    margin-right: 10px;
+}
+#box2 h3{
+    color: white;
+    margin-top: 3%;
+    margin-left: 29%;
+}
+
+/* -------------SCHOOL INFORMATION-------------*/
+
+.info_head{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.info_head span{
+    color: #ee302a;
+    font-family: Poppins;
+}
+
+.info_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+/* ------------------school info box------------------ */
+.school_info{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 10px rgb(226, 226, 226);
+}
+.school_info h1{
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 20px;
+    color: #ee302a;
+}
+table,td,tr{
+    margin: auto;
+    border: 1px solid rgb(223, 223, 223);
+    border-collapse: collapse;
+}
+table{
+    width: 90%;
+    margin-bottom: 30px;
+}
+td{
+    padding: 10px 20px 5px 20px;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(78, 78, 78);
+}
+
+/* ----------STREAMS--------- */
+
+.streams{
+    border-radius: 10px;
+    margin: 0px 20px 20px 20px;
+    background-color: #fef1eb;
+}
+.streams h3{
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 10px;
+    padding: 10px 20px 0px 20px;
+}
+.streams h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px 20px;
+    font-family: Poppins;
+}
+.streams img{
+    margin-top: -110px;
+    float: right;
+    margin-right: 40px;
+}
+/* -----------ACADEMICS TABLE---------- */
+.academic{
+    margin-left: 50px;
+}
+.academic td,tr{
+    font-size: 17px;
+    padding:20px 20px;
+    color: rgb(78, 78, 78);
+}
+.academic tr:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
+.academic tr:nth-child(even){
+    background-color: #fafafa;
+
+}
+
+/* -------------TOPPER CONTIANER---------- */
+.topper_head{
+    font-size: 45px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.topper_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #f3f3f3 0%, #f3f3f3 100%);
+}
+.topper_box{
+    width: 50%;
+    margin-bottom: 60px;
+    background-color: transparent;
+}
+.topper_box img{
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(156, 156, 156);
+}
+.topper_box h1{
+    font-size: 21px;
+    text-align: justify;
+    color: rgb(78, 78, 78);
+    padding: 20px 60px 20px 0px;
+}
+
+/* -------------footer-------------- */
+
+.footer_container{
+    width: 100%;
+    background-color: rgba(37,37,37);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Cloumns */
+
+.section{
+    width: 270px;
+    height: 170px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* All H1 tags of footer  - vision*/
+
+.vision{
+    display: block;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/* H1 tag vision section- creative */
+
+.creative{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+/* All H2 and A tags in footer */
+
+h2{
+    padding: 2px 0px;
+}
+
+h2 a{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-decoration: none;
+} 
+
+h2 a:hover{
+    text-decoration:underline;
+}
+
+.copyright{
+    /* background-color: rgba(37,37,37); */
+    background-color: rgba(37,37,37);
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 20px 0px;
+}
+
+
+#follow img{
+    width: 20px;
+    margin-left: 25px;
+    filter: invert();
+}
+
+#follow h2 a{
+    margin-left: 10px;
+}
+
+/* --------scroll bar ---------*/
+
+body::-webkit-scrollbar {
+    width: 1px;
+  }
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+
